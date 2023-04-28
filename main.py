@@ -13,7 +13,7 @@ def example(a, /, b, *, c):
 def my_print(*args, **kwargs):
     
     print(f"Got keywords: {kwargs}")
-
+    
     print(args)
     for item in args:
         print(str(item), **kwargs)
@@ -23,9 +23,9 @@ def my_print(*args, **kwargs):
 if __name__ == "__main__":
     
     # example(1,2, c=3)
-    # my_print(1,2,3,4,5,6,7, sep=":", end="-")
-    print(1,2, **{'sep':":", 'end':"-"})
-    print(1,2, sep=':', end='-')
+    my_print(1,2,3,4,5,6,7, sep=":", end="-")
+    # print(1,2, **{'sep':":", 'end':"-"})
+    # print(1,2, sep=':', end='-')
 
     # print(a)
     # print(b)
