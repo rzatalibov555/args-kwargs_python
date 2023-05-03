@@ -1,4 +1,4 @@
-a, *b  = 'dsdsd','asas'
+# a, *b  = 'some text','2'
 
 # / всё что слева - только позиционные аргументы           (1)
 # * всё что справа - только ключевые (keyword) аргументы   (a=1) args
@@ -30,8 +30,8 @@ if __name__ == "__main__":
     # print(a)
     # print(b)
 
-    print(f'{a=}')
-    print(f'{b=}')
+    # print(f'{a=}')
+    # print(f'{b=}')
     # print(f'{c=}')
     # print(*[1,2,3,4])
 
